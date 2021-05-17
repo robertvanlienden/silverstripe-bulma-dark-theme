@@ -16,8 +16,7 @@ This theme is a great start if you want to use [Bulma CSS Framework](https://bul
 
 ## Installation
 
-- `cd <silverstripe dir>`
-- `git clone <git repo> themes/bulma-dark-theme`
+- `composer require robertvanlienden/silverstripe-bulma-dark-theme`
 - Change your `app/_config/theme.yml` to:
 ```yaml
 ---
@@ -30,18 +29,6 @@ themes:
 - '$default'
 
 ```
-- Change the `composer.json` config with the following lines:
-```json
-    "extra": {
-        "resources-dir": "_resources",
-        "expose": [
-            "themes/bulma-dark-theme/css",
-            "themes/bulma-dark-theme/javascript",
-            "themes/bulma-dark-theme/webfonts",
-            "themes/bulma-dark-theme/images"
-        ],
-```
-
 
 ### TinyMCE Config
 
