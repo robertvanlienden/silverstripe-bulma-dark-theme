@@ -30,48 +30,6 @@ themes:
 
 ```
 
-Follow Add the following steps to add Bulma headings in WYSYWIG editor:
-
-- Add the following lines to your `app/_config/mysite.yml`:
-```yaml
-SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
-  editor_css:
-    - 'themes/silverstripe-bulma-dark-theme/css/editor.css'
-```
-
-- Add the following code to `app/_config/_config.php`:
-```php
-use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
-// .......
-$formats = [
-    [ 'title' => 'Headings', 'items' => [
-        ['title' => 'Heading 1', 'block' => 'h1', 'classes' => 'title is-1'],
-        ['title' => 'Heading 2', 'block' => 'h2', 'classes' => 'title is-2'],
-        ['title' => 'Heading 3', 'block' => 'h3', 'classes' => 'title is-1'],
-        ['title' => 'Heading 4', 'block' => 'h4', 'classes' => 'title is-4'],
-        ['title' => 'Heading 5', 'block' => 'h5', 'classes' => 'title is-5'],
-        ['title' => 'Heading 6', 'block' => 'h6', 'classes' => 'title is-6'],
-        ['title' => 'Heading 6', 'block' => 'h6', 'classes' => 'title is-6'],
-        [
-            'title'           => 'Subtitle',
-            'selector'        => 'p',
-            'classes'         => 'title-sub',
-        ],
-    ]
-    ],
-];
-
-TinyMCEConfig::get('cms')
-    ->addButtonsToLine(2, 'styleselect')
-    ->setOptions([
-        'importcss_append' => true,
-        'style_formats' => $formats,
-    ])
-    ->removeButtons('formatselect');
-```
-
-Now you got the Bulma-styles headings in the WYSIWYG editor!
-
 ## Developing
 
 Make sure you got the development requirements and start developing with the following commands:
