@@ -25,15 +25,15 @@ Name: mytheme
 SilverStripe\View\SSViewer:
 themes:
 - '$public'
-- 'bulma-dark-theme'
+- 'silverstripe-bulma-dark-theme'
 - '$default'
 
 ```
 
 ### TinyMCE Config
 
-Copy the code from `themes/bulma-dark-theme/TinyMCE.php` to `app/_config/_config.php` to
-add corrent formatting for headings and some other bulma elements.
+Copy the code from `themes/silverstripe-bulma-dark-theme/TinyMCE.php` to `app/_config/_config.php` to
+add correct formatting for headings and some other bulma elements.
 
 ## Developing
 
