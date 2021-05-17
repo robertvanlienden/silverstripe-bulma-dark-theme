@@ -1,0 +1,25 @@
+{
+    "name": "robertvanlienden/silverstripe-bulma-dark-theme",
+    "description": "A simple SilverStripe dark theme based on the Bulma CSS Framework",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert van Lienden",
+            "homepage": "https://www.robertvanlienden.nl"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4.0"
+    },
+    "extra": {
+        "expose": [
+            "css",
+            "images",
+            "javascript",
+            "webfonts"
+        ]
+    }
+}
