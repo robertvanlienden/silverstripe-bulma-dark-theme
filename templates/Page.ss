@@ -17,7 +17,7 @@
         <div class="py-4">
             $Breadcrumbs
         </div>
-        <div class="py-4">
+        <div class="py-4 content">
             $Layout
         </div>
     </section>
