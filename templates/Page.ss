@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="shortcut icon" href="$ThemedResource('images/favicon.png')" />
+    <% require themedCSS('main') %>
 </head>
 <body class="flex-grow">
 <% include Nav %>
@@ -23,5 +24,6 @@
 </div>
 
 <% include Footer %>
+<% require themedJavascript('bundle.js') %>
 </body>
 </html>
