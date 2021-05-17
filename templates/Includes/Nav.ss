@@ -25,7 +25,7 @@
                             </a>
                             <div class="navbar-dropdown has-background-dark has-text-light">
                             <% loop $Children %>
-                                <a href="$Link" class="navbar-item has-text-light <% if $isCurrent %>has-background-secondary has-text-dark<% else %>has-background-dark has-text-light<% end_if %>">
+                                <a href="$Link" class="navbar-item has-text-light <% if $isCurrent %>has-background-primary has-text-dark<% else %>has-background-dark has-text-light<% end_if %>">
                                     $MenuTitle
                                 </a>
                             <% end_loop %>
