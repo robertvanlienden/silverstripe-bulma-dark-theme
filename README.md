@@ -8,7 +8,7 @@ This theme is a great start if you want to use [Bulma CSS Framework](https://bul
 ## Requirements
 
 ### Installation
-- SilverStripe 4
+- SilverStripe 4 & 5
 
 ### Development
 - Node Package Manager (npm)
